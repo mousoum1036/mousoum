@@ -13,8 +13,6 @@ makeVector <- function(x = numeric()) {
              getmean = getmean)
 }
 
-
-
 cachemean <- function(x, ...) {
         m <- x$getmean()
         if(!is.null(m)) {
